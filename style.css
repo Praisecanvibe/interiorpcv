@@ -1,0 +1,879 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+nav{
+    padding-block: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    margin-left: 90px;
+}
+nav ul li{
+    margin-left: 70px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.navbutton{
+    padding: 15px;
+    width: 150px;
+    margin-right: 10px;
+    background-color: white;
+}
+.navbutton:hover{
+    background-color: black;
+    color: white;
+}
+.firstsection{
+    background-color: rgb(148, 216, 122);
+    height: 550px;
+}
+.container{
+    padding-top: 80px;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 130px;
+    height: 500px;
+
+}
+.first{
+    padding: 15px;
+    background-color: black;
+    color: white;
+}
+h1{
+    line-height: 55px;
+    font-size: 35px;
+}
+.firstimage{
+    width:550px ; 
+}
+.first:hover{
+    background-color: white;
+    color: black;
+}
+.secondcontainer{
+    margin-top: 100px;
+    display: flex;
+}
+.secondimage{
+    margin-left:130px ;
+}
+.secondcontent{
+    padding-top:40px ;
+    margin-left: 70px;
+}
+.secondbutton{
+    padding: 15px;
+}
+.secondbutton:hover{
+    background-color: black;
+    color: white;
+}
+h2{
+    font-size: 35px;
+}
+.third-section{
+    background-color:rgb(148, 216, 122) ;
+    height: 1400px;
+    position: relative;
+    margin-top: 130px;
+    width: 100%;
+}
+.third-container{
+    width: 100%;
+}
+.thirdcontent{
+    text-align: center;
+    padding-top: 180px;
+}
+h3{
+    font-size: 35px;
+}
+.firstgrid{
+    width: 1000px;
+    height: 650px;
+    margin-left: 120px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-rows: 300px 300px 300px ;
+    grid-template-columns:500px 500px;
+    position: relative;
+    row-gap: 50px;
+    column-gap: 100px;
+}
+.straight{
+    background-color: white;
+    height: 770px;
+    width: 240px;
+    position: absolute;
+    border-radius: 6px;
+    top: 130px;
+    left: 425px;
+    z-index: 1;
+    text-align: center;
+}
+.position{
+    width: 500px;
+    height: 300px;
+    margin-left: 0px;
+}
+.b{
+    padding: 16px;
+    width: 150px;
+    background-color: none;
+}
+.oneside{
+    margin-left: 120px;
+}    
+.firstt{
+    z-index: 2;
+}
+.fourth{
+    z-index:2 ;
+}
+.fifth{
+    z-index: 2;
+}
+.sixty{
+    height: 150px;
+    margin-top: 50px;
+}
+.fortyfive{
+    height: 230px;
+    margin-top: 90px;
+    margin-right: 100px;
+}
+
+.seventy{
+    margin-top: 90px;
+}
+h4{
+    font-size: 30px;
+}
+.up{
+    margin-left: 100px;
+}
+.grid{
+    width: 620px;
+    height: 500px;
+    display: grid ;
+    grid-template-rows: 250px 250px ;
+    grid-template-columns:300px 300px;
+    justify-content: space-around;
+    column-gap:20px ;
+    row-gap: 20px;
+}
+.item1{
+    grid-row-start: 1;
+    grid-row-end:3 ;
+    grid-column-start:1 ;
+}
+.fourth-container{
+    margin-top: 150px;
+    display: flex;
+    height: 500px;
+    margin-left: 130px;
+    width: 1100px;
+}
+h6{
+    font-size: 35px;
+    line-height: 70px;
+}
+.gridcontent{
+margin-left: 100px;
+}
+.last{
+    width: 100%;
+    height: 400px;
+    background-image: url(Images/bimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+.overlay{
+    width: 100%;
+    height: 400px;
+    background-color: rgba(24, 43, 24, 0.658);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.lastbutton{
+    width: 157px;
+    padding: 13px;
+}
+.lastbutton:hover{
+    background-color: black;
+    color: white;
+}
+footer{
+    padding-top: 100px;
+    background-color: rgb(88, 122, 8);
+}
+.footer{
+    color: white;
+    font-size: 12px;
+}
+.footerdiv{
+    display: flex;
+}
+.footerul{
+    color: white;
+    list-style: none;
+    margin-left: 120px;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 40px;
+}
+hr{
+    margin-left: 100px;
+    width: 1250px;
+}
+.icons{
+
+    display: flex;   
+    gap: 30px;
+    font-size: 20px;
+}
+#emailid{
+    background-color: rgba(0, 0, 255, 0);
+    height: 50px;
+    color: white;
+    width: 205px;
+    position: relative;
+    border-color: white;
+    border: 3px solid;
+}
+#emailid::placeholder{
+    color: white;
+}
+.Rhamaku{
+    display: flex;
+}
+.submit{
+    position: absolute;
+    right: 135px;
+    width: 90px;
+    padding: 15px;
+    height: 50px;
+    font-size: 10px;
+}
+.copyright{
+    margin-left: 900px;
+    font-size: 13px;
+    color: white;
+    line-height: 40px;
+    
+}
+
+@media(max-width:768px){
+    nav{
+        padding-block: 1px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 600px;
+    }
+    .navimg{
+        width: 70px;
+        margin-left: 30px;
+    }
+    nav ul{
+        display: flex;
+        list-style: none;
+
+    }
+    nav ul li{
+        display: none;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+    }
+    .navbutton{
+        padding: 10px;
+        width: 80px;
+        margin-right: 60px;
+        background-color: white;
+        font-size: 10px;
+    }
+    .firstsection{
+        background-color: rgb(148, 216, 122);
+        height: 700px;
+        width: 600px;
+    }
+    .container{
+        padding-top: 30px;
+        display: block;
+        margin-left: 90px;
+        height: 500px;
+    }
+    .first-content{
+        width: unset;
+        width: 60% !important;
+        height: 300px;
+    }
+    .first{
+        padding: 10px;
+        background-color: black;
+        color: white;
+        font-size: 10px;
+    }
+    h1{
+        line-height: 30px;
+        font-size: 25px;
+    }
+    .firstimage{
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .firstimage img{
+        width: 80%;
+    }
+    .oneP{
+        font-size: 14px;
+        width: 350px;
+    }
+    .first-content{
+        width: 600px;
+    }
+    .secondcontainer{
+        width: 600px;
+        display: block;
+        margin-top: 70px;
+    }
+    .secondimage{
+        background-color: black;
+        width: 350px;
+        display: flex;
+        align-items: center; 
+        margin-left: 90px;
+    }
+    .secondimage img{
+        width: 100%;
+    }
+    .secondcontent{
+        margin-left: 90px;
+    }
+    .secondbutton{
+        padding: 10px;
+        font-size: 10px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    .third-section{
+        background-color:rgb(148, 216, 122) ;
+        width: 600px;
+        height: 2400px;
+        position: relative;
+        margin-top: 130px;
+        height: 1850px;
+    }
+    .third-container{
+        width: 560px;
+        height: 1800px;
+    }
+    .thirdcontent{
+        text-align: center;
+        padding-top: 180px;
+    }
+    h3{
+        font-size: 25px;
+    }
+    .firstgrid{
+        width: 550px;
+        height: 650px;
+        margin-left: 150px;
+        margin-top: 50px;
+        display: grid;
+        grid-template-rows: 150px 150px 150px 150px 150px 150px;
+        grid-template-columns: 150px;
+        position: relative;
+        row-gap: 90px;
+    }
+    .straight{
+        background-color: white;
+        height: 1250px;
+        width: 120px;
+        border-radius: 6px;
+        top:50px;
+        z-index: 1;
+        text-align: center;
+        position: absolute;
+        left: -90px;
+    }
+    .gimg{
+        width: 250px;
+        height: 200px;
+    }
+    .position{
+        width: 250px;
+        height: 200px;
+    }
+    .second{
+        z-index: 2;
+    }
+    .b{
+        padding: 9px;
+        width: 100px;
+        background-color: none;
+        font-size: 11px;
+        margin-top: 4px;
+    }
+    .oneside{
+        margin-left: 40px;
+    
+    }
+    .third{
+        margin-left: 40px;
+    }    
+    .firstt{
+        z-index: 2;
+    }
+    .fourth{
+        z-index: 2;
+    }
+    .fifth{
+        z-index: 2;
+    }
+    .sixty{
+        height: 70px;
+        margin-left: -25px;
+        margin-top: 150px;
+    }
+    .fortyfive{
+        background-color: yellow;
+        height: 20px;
+        margin-top: 390px;
+        margin-left: 20px;
+    }
+    
+    .seventy{
+        margin-left: 0px;
+        margin-top: 480px;
+    
+    }
+    h4{
+        font-size: 30px;
+    }
+    .twoP{
+        font-size: 16px;
+    }
+    .threeP{
+        font-size: 13px;
+    }
+    #section{
+        display: none;
+    }
+    .last{
+        width: 600px;
+        height: 300px;
+        background-image: url(Images/bimg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .lasth6{
+        font-size: 25px;
+        line-height: 50px;
+    }
+    .lastP{
+        font-size: 14px;
+    }
+    .overlay{
+        width: 600px;
+        height: 300px;
+        background-color: rgba(24, 43, 24, 0.658);
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+    }
+    .lastbutton{
+        padding: 10px;
+        width: 110px;
+        font-size: 10px;
+    }
+    .lastbutton:hover{
+        background-color: black;
+        color: white; 
+    }
+    footer{
+        padding-top: 50px;
+        background-color: rgb(88, 122, 8);
+        width: 600px;
+    }
+    .footer{
+        color: white;
+        font-size: 10px;
+    }
+    .footerdiv{
+        display: flex;
+    }
+    .footerul{
+        color: white;
+        list-style: none;
+        margin-left: 22px;
+        font-family: sans-serif;
+        font-size: 11px;
+        line-height: 17px;
+    }
+    hr{
+        margin-left: 10px;
+        width: 590px;
+    }
+    .icons{
+        display: flex;   
+        gap: 30px;
+        font-size: 20px;
+    }
+    #emailid{
+        background-color: rgba(0, 0, 255, 0);
+        height: 40px;
+        color: white;
+        width: 130px;
+        position: relative;
+        border-color: white;
+        border: 1px solid;
+    }
+    #emailid::placeholder{
+        color: white;
+        font-size: 10px;
+    }
+    .Rhamaku{
+        display: flex;
+    }
+    .submit{
+        position: absolute;
+        width: 65px;
+        padding: 12px;
+        left: 0495px;
+        font-size: 10px;
+    }
+    .copyright{
+        margin-left: 300px;
+        font-size: 10px;
+        color: white;
+        line-height: 20px;    
+    }
+}
+
+@media(max-width:425px){
+    nav{
+        padding-block: 1px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 560px;
+    }
+    .navimg{
+        width: 70px;
+        margin-left: 30px;
+    }
+    nav ul{
+        display: flex;
+        list-style: none;
+        background-color: blueviolet;
+    }
+    nav ul li{
+        display: none;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+    }
+    .navbutton{
+        padding: 10px;
+        width: 80px;
+        margin-right: 60px;
+        background-color: white;
+        font-size: 10px;
+    }
+    .firstsection{
+        background-color: rgb(148, 216, 122);
+        height: 600px;
+        width: 555px;
+    }
+    .container{
+        padding-top: 30px;
+        display: block;
+        margin-left: 90px;
+        height: 500px;
+    }
+    .first-content{
+        width: unset;
+        width: 60% !important;
+        height: 300px;
+    }
+    .first{
+        padding: 10px;
+        background-color: black;
+        color: white;
+        font-size: 10px;
+    }
+    h1{
+        line-height: 30px;
+        font-size: 25px;
+    }
+    .firstimage{
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .firstimage img{
+        width: 80%;
+    }
+    .oneP{
+        font-size: 11px;
+        width: 350px;
+    }
+    .first-content{
+        width: 555px;
+    }
+    .secondcontainer{
+        width: 555px;
+        display: block;
+        margin-top: 70px;
+    }
+    .secondimage{
+        background-color: black;
+        width: 350px;
+        display: flex;
+        align-items: center; 
+        margin-left: 90px;
+    }
+    .secondimage img{
+        width: 100%;
+    }
+    .secondcontent{
+        margin-left: 90px;
+    }
+    .secondbutton{
+        padding: 10px;
+        font-size: 10px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    .third-section{
+        background-color:rgb(148, 216, 122) ;
+        width: 560px;
+        height: 2400px;
+        position: relative;
+        margin-top: 130px;
+        height: 1850px;
+    }
+    .third-container{
+        width: 560px;
+        height: 1800px;
+    }
+    .thirdcontent{
+        text-align: center;
+        padding-top: 180px;
+    }
+    h3{
+        font-size: 25px;
+    }
+    .firstgrid{
+        width: 550px;
+        height: 650px;
+        margin-left: 150px;
+        margin-top: 50px;
+        display: grid;
+        grid-template-rows: 150px 150px 150px 150px 150px 150px;
+        grid-template-columns: 150px;
+        position: relative;
+        row-gap: 90px;
+    }
+    .straight{
+        background-color: white;
+        height: 1250px;
+        width: 120px;
+        border-radius: 6px;
+        top:50px;
+        z-index: 1;
+        text-align: center;
+        position: absolute;
+        left: -90px;
+    }
+    .gimg{
+        width: 250px;
+        height: 200px;
+    }
+    .position{
+        width: 250px;
+        height: 200px;
+    }
+    .second{
+        z-index: 2;
+    }
+    .b{
+        padding: 9px;
+        width: 100px;
+        background-color: none;
+        font-size: 9px;
+        margin-top: 4px;
+    }
+    .oneside{
+        margin-left: 40px;
+    
+    }
+    .third{
+        margin-left: 40px;
+    }    
+    .firstt{
+        z-index: 2;
+    }
+    .fourth{
+        z-index: 2;
+    }
+    .fifth{
+        z-index: 2;
+    }
+    .sixty{
+        height: 70px;
+        margin-left: -25px;
+        margin-top: 150px;
+    }
+    .fortyfive{
+        background-color: yellow;
+        height: 20px;
+        margin-top: 390px;
+        margin-left: 20px;
+    }
+    
+    .seventy{
+        margin-left: 0px;
+        margin-top: 480px;
+    
+    }
+    h4{
+        font-size: 30px;
+    }
+    .twoP{
+        font-size: 13px;
+    }
+    .threeP{
+        font-size: 11px;
+    }
+    #section{
+        display: none;
+    }
+    .last{
+        width: 560px;
+        height: 300px;
+        background-image: url(Images/bimg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .lasth6{
+        font-size: 25px;
+        line-height: 50px;
+    }
+    .lastP{
+        font-size: 14px;
+    }
+    .overlay{
+        width: 560px;
+        height: 300px;
+        background-color: rgba(24, 43, 24, 0.658);
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+    }
+    .lastbutton{
+        padding: 10px;
+        width: 110px;
+        font-size: 10px;
+    }
+    .lastbutton:hover{
+        background-color: black;
+        color: white;
+    
+    }
+    footer{
+        padding-top: 50px;
+        background-color: rgb(88, 122, 8);
+        width: 560px;
+    }
+    .footer{
+        color: white;
+        font-size: 10px;
+    }
+    .footerdiv{
+        display: flex;
+    }
+    .footerul{
+        color: white;
+        list-style: none;
+        margin-left: 15px;
+        font-family: sans-serif;
+        font-size: 11px;
+        line-height: 17px;
+    }
+    hr{
+        margin-left: 10px;
+        width: 560px;
+    }
+    .icons{
+        display: flex;   
+        gap: 30px;
+        font-size: 20px;
+    }
+    #emailid{
+        background-color: rgba(0, 0, 255, 0);
+        height: 40px;
+        color: white;
+        width: 130px;
+        position: relative;
+        border-color: white;
+        border: 1px solid;
+    }
+    #emailid::placeholder{
+        color: white;
+        font-size: 9px;
+    }
+    .Rhamaku{
+        display: flex;
+    }
+    .submit{
+        position: absolute;
+        width: 65px;
+        padding: 12px;
+        left: 460px;
+        font-size: 10px;
+    }
+    .copyright{
+        margin-left: 300px;
+        font-size: 10px;
+        color: white;
+        line-height: 20px;    
+    }
+}
